@@ -1,0 +1,91 @@
+body {
+  background-image: url("../images/fond.jpeg");
+  background-size: cover;
+  font-family: 'Ubuntu', 'sans-serif';
+  width: 100%;
+  height: 100%;
+}
+
+div div {
+  width: 75%;
+}
+
+
+.gameNamePosition {
+  margin-bottom: 5%;
+}
+
+div p {
+  color: white;
+  background-color: #0a1b47;
+  text-align: center;
+  width: 40%;
+  border-radius: 2px;
+}
+
+#rules,
+.gameName,
+.score {
+  padding: 0.5em;
+  box-shadow: 0 0 4px black;
+}
+
+#screen2 {
+  display: none;
+}
+
+#startGame:hover {
+  letter-spacing: 0.8em;
+  background-color: #57a838;
+}
+
+#startGame {
+  color: white;
+  margin: 0 auto;
+}
+
+button {
+  height: 4em;
+  width: 30%;
+  background-color: #419222;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  transition: all 0.2s;
+  box-shadow: 0px 0px 8px black;
+}
+
+#letterDisplay {
+  border: 3px solid black;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: none;
+  border-radius: 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 4px black;
+}
+
+#letterElement {
+  text-transform: capitalize;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 8em;
+  position: relative;
+  top: 0.05em;
+  left: 0.8em;
+}
+
+#countdown {
+  color: white;
+  margin-left:11.5em ;
+}
+
+#countdown-number {
+  font-size: 3em;
+
+
+}
